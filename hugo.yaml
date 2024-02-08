@@ -1,0 +1,114 @@
+baseURL: https://news.w0ne.org/
+languageCode: en-us
+title: W0NE News
+theme: ["PaperMod"]
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts","hamgram","minutes"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 1
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: W0NE
+          url: https://w0ne.org
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+params:
+  env: production
+  description: "W0NE News - Winoan Amateur Radio Club News"
+  author: Sam KF0ACN
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  # images: ["images/papermod-cover.png"]
+
+  homeInfoParams:
+    Title: "Winona Amateur Radio Club News"
+    Content: >
+      Welcome to the news section for the Winona Amateur Radio Club! Here you will find...
+
+      - **Hamgram**: The monthly newsletter for the Winona Amateur Radio Club
+
+      - **News**: Winona Amateur Radio Club news, notices, and other general interest information
+
+      - **Articles**: General interest amateur radio related articles from the club members and other sources
+
+  socialIcons:
+    - name: Facebook
+      title: Winona Amateur Radio Club Facebook
+      url: "https://www.facebook.com/WinonaARC/"
+    - name: Email
+      title: Contact the Winona Amateur Radio Club
+      url: "mailto:contact@w0ne.org"
+    - name: other
+      title: ARRL
+      url: "https://www.arrl.org/Groups/view/winona-arc"
+
+  editPost:
+    URL: "https://github.com/user00265/warc-news"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  assets:
+    disableHLJS: true
+    favicon: "/images/icon.jpg"
+    apple_touch_icon: "/images/apple-icon.jpg"
+    safari_pinned_tab: "/images/applie-icon.jpg"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
