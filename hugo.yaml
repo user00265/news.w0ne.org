@@ -85,7 +85,7 @@ params:
       url: "https://www.arrl.org/Groups/view/winona-arc"
 
   editPost:
-    URL: "https://github.com/user00265/warc-news"
+    URL: "https://github.com/user00265/news.w0ne.org/edit/master/content/"
     Text: "Suggest Changes"
     appendFilePath: true
 
