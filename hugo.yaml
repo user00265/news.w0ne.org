@@ -17,6 +17,10 @@ minify:
   disableXML: true
   minifyOutput: true
 
+module:
+  imports:
+    - path: github.com/shoginn/hugo-apache-headers
+
 languages:
   en:
     languageName: "English"
