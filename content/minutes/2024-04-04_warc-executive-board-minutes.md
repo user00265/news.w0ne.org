@@ -37,7 +37,7 @@ Called to order at 7:02 p.m. by Lance Tagliapietra, ADØUT
 ## Minutes
 Minutes were published online by Sam Resto, KFØACN.
 
-**MOTION:** _(KFACN/KFØBSI)_. **Approved.**
+**MOTION:** _(KØZYV/KFØBSI)_. **Approved.**
 
 
 ## Treasurer's Report
