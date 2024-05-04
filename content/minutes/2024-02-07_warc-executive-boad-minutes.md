@@ -1,6 +1,6 @@
 ---
 author: "Sam KF0ACN"
-title: "WARC Executive Boad Minutes - February 2024"
+title: "WARC Executive Board Minutes - February 2024"
 date: "2024-02-07"
 description: "Minutes for the WARC Executive Board Meeting in February 2024"
 categories: ["minutes"]
