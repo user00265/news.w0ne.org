@@ -1,7 +1,7 @@
 ---
 author: "Sam KF0ACN"
 title: "W0NE Hamgram - April"
-date: "2024-04-06"
+date: "2074-04-06"
 description: "The Winona Amateur Radio Club's Hamgram - April 2024 Edition"
 tags: ["hamgram"]
 categories: ["hamgram"]
