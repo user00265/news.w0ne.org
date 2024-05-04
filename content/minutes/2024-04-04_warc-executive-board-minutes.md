@@ -156,4 +156,4 @@ Clare was asking about the possibility of getting a radiogram from the ARRL NTS 
 The Waumandee Time Trials has requested to let them know who plans to assist as this year we are to have t-shirts for people working the event.
 
 ## Adjourn
-**MOTION:** _(KFØACN/WØIH)_. **Adjourned** at 7:41 p.m.
+**MOTION:** _(AC9TO/KFØACN)_. **Adjourned** at 7:41 p.m.
